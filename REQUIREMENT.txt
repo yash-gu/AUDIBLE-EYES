@@ -1,0 +1,3 @@
+pillow
+pypdf2
+gtts
