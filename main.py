@@ -3,7 +3,7 @@ from tkinter import filedialog, messagebox
 from PIL import Image, ImageTk  
 import PyPDF2
 from gtts import gTTS
-
+# pdf to audio converter
 def pdf_to_audio(pdf_file, audio_file, lang):
     try:
         with open(pdf_file, 'rb') as file:
